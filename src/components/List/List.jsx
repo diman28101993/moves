@@ -7,9 +7,11 @@ export const List = ({ item }) => {
   
   
   const poster = `https://image.tmdb.org/t/p/w500/`;
- console.log(item);
+
   return (
-    <>
+    
+      <li>
+
     <Card className="card"
     // hoverable
     
@@ -25,7 +27,8 @@ export const List = ({ item }) => {
 
       <Meta title={item.title} description={item.overview} />
     </Card>
+      </li>
     
-    </>
+
   );
 };

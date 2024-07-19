@@ -26,15 +26,20 @@ export const App = ()=> {
       setMove(moves.results)
     }
 }
+
 useEffect( ()=>{getMoves()},[])
 
-// console.log(move.results);
   return (
 <>
 <main>
-
-
+<div className="container">
+<ul className="list">
   <CreateElement moveList = { move }/>
+  </ul>
+</div>
+<div>
+  
+</div>
 </main>
 </>
   )

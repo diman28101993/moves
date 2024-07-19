@@ -6,7 +6,7 @@
 }
 .ant-card-cover {
     display: flex;
-width:200px;
+width:600px;
 height : 300px;
 margin-bottom: 20px;
 /* background-image: srs; */
@@ -14,5 +14,22 @@ margin-bottom: 20px;
 .ant-card-meta-description{
     width: 150px;
     margin-left: 10px;
-    
+    flex-shrink: inherit;
 }
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+
+}
+.ant-card-body{
+  display: flex;
+}
+.ant-card-meta-detail{
+  display:inline-grid;
+flex-shrink: inherit;
+}
+

@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  width: 451px;
+  height: 300px;
+  margin-top: 37px;
+}
+.ant-card-cover {
+    display: flex;
+width:200px;
+height : 300px;
+margin-bottom: 20px;
+/* background-image: srs; */
+}
+.ant-card-meta-description{
+    width: 150px;
+    margin-left: 10px;
+    
+}
